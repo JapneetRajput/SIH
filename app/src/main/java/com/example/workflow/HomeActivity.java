@@ -32,14 +32,14 @@ public class HomeActivity extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Places.class));
+                startActivity(new Intent(getApplicationContext(),dashboard.class));
                 finish();
             }
         });
         profileTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),Places.class));
+                startActivity(new Intent(getApplicationContext(),dashboard.class));
                 finish();
             }
         });
